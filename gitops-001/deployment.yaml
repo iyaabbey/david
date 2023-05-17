@@ -18,13 +18,6 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: bodeabbey/nginx:v0.1.0
-          resources:
-            requests:
-              cpu: ""
-              memory: ""
-            limits:
-              cpu: ""
-              memory: ""
+          image: aputra/nginx:v0.1.3
           ports:
             - containerPort: 80
