@@ -11,7 +11,7 @@ spec:
   source:
     repoURL: https://github.com/iyaabbey/david.git
     targetRevision: HEAD
-    path: apps/dev/gitops-002
+    path: gitops-002
   destination:
     server: https://kubernetes.default.svc
   syncPolicy:
